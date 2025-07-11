@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 
 const urls = [
-  'https://raw.githubusercontent.com/Blackfml/minha-lista-m3u/refs/heads/main/lista_parte1.m3u',
-  'https://raw.githubusercontent.com/Blackfml/minha-lista-m3u/refs/heads/main/lista_parte2.m3u'
+  'https://raw.githubusercontent.com/Blackfml/minha-lista-m3u/main/lista_parte1.m3u',
+  'https://raw.githubusercontent.com/Blackfml/minha-lista-m3u/main/lista_parte2.m3u'
 ];
 
 async function mesclarListas() {
